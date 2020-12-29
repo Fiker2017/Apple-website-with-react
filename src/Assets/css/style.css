@@ -1,0 +1,649 @@
+/* General Styling*/
+body {
+    font-family: "Montserrat", sans-serif;
+}
+a {
+    color: #06c;
+}
+img {
+    max-width: 100%;
+}
+.white {
+    color: #fff;
+}
+.black {
+    color: #1d1d1f;
+}
+.grey {
+    color: #86868b;
+}
+.top-50 {
+    margin-top: 70px;
+}
+
+/*top bar section*/
+a:hover,
+a:active,
+a:focus {
+    color: white;
+    outline: none;
+}
+.nav-n li a:hover {
+    background: transparent;
+    color: white;
+}
+
+.nav-n li > a:hover,
+.nav-n li > a:focus {
+    background-color: transparent;
+}
+.nav-n li.active > a {
+    background-color: transparent;
+    color: #f5f5f7;;
+}
+
+.nav-n {
+    justify-content: space-between ;
+    padding-left: 50px;
+  
+}
+.top-bar-wrapper {
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 0.85em;
+    font-weight: 200;
+}
+
+.navbar-toggler {
+    color: #fff;
+}
+.nav-item {
+    text-align: left !important;
+
+}
+.nav-item a {
+    color:  #f5f5f7;
+}
+
+.search-link,
+.cart-link {
+    /* width: 55px; */
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.nav-item .search2 {
+    background-image: url("../images/icons/search-icon-sm.png");
+    background-repeat: no-repeat;
+}
+/* Search Box */
+.searchbox {
+    z-index: 100;
+    background: #000;
+    padding: 100px;
+    text-align: center;
+    display: none;
+}
+
+.searchbox ul {
+    background: #fff;
+}
+
+.searchtext {
+    width: 100%;
+    padding-left: 30px;
+    display: block;
+    box-sizing: border-box;
+    line-height: 2.11765em;
+    font-size: 17px;
+    opacity: 1;
+}
+.my-border {
+    border: 1px;
+    border-radius: 15px;
+    color: #6e6e73;
+    background-color: #6e6e73;
+}
+.newsearch {
+    display: flex;
+    justify-content: space-between;
+}
+.cancel {
+    color: #2997ff;
+    font-size: 17px;
+    position: end;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    cursor: pointer;
+    text-align: left;
+    display: none;
+}
+
+/*alert section*/
+
+.alert-title {
+    font-weight: 600;
+    color: #1d1d1f;
+    padding: 10px;
+    text-align: center;
+}
+.alert-discription {
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pad-control {
+    padding: 70px 0 25px;
+}
+
+/*first section*/
+.first-container {
+    background-image: url("../images/home/ipodPronew-sm.jpg");
+    height: 580px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-color: #fbfbfd;
+    text-align: center;
+    padding: 65px 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.ipod-caption {
+    color: #86868b;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    padding-top: 310px;
+}
+
+.title-wraper {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.15em;
+    letter-spacing: -0.04em;
+}
+.title-wraper.bold {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.15em;
+    letter-spacing: -0.04em;
+}
+
+.links-wrapper {
+    padding: 15px 0;
+}
+.links-wrapper ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+.links-wrapper ul li a {
+    color: #06c;
+    text-decoration: none;
+    font-size: 21px;
+}
+.links-wrapper ul li a:hover {
+    color: #000;
+}
+.links-wrapper ul li a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    padding-left: 10px;
+}
+
+
+
+/*second section*/
+.second-container {
+    background-image: url("../images/home/macbookair-new-sm.jpg");
+    height: 580px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-color: #fbfbfd;
+    text-align: center;
+    padding: 65px 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/*third section*/
+.third-container {
+    background-image: url("../images/home/iphone11-pro-bg.jpg");
+    height: 580px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-color: #fbfbfd;
+    text-align: center;
+    padding: 65px 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/*fourth section*/
+.fourth-container .left-side-wrapper {
+    background-image: url("../images/home/iphone11-colored.jpg");
+    background-color: #000;
+    padding-top: 35px;
+    margin: 0 0 10px ;
+    background-size: cover;
+    min-height: 515px;
+    background-position: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+}
+
+.fourth-container .right-side-wrapper {
+    background-image: url("../images/home/apple-blue-logo.jpg");
+    background-color: #165ca9;
+    background-position: bottom;
+    padding-top: 35px;
+    margin: 0 0 10px ;
+    background-size: auto;
+    min-height: 515px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: 50%;
+   
+}
+
+.links-wrapper.white li a {
+    color: #fff;
+}
+
+.fourth-container .right-side-wrapper .title-wraper {
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+/*fifth section*/
+
+.fifth-container .left-side-wrapper {
+    background-image: url("../images/home/actors.jpg");
+    background-color: #000;
+    padding-top: 35px;
+    margin: 0 0 10px 0;
+    background-size: cover;
+    min-height: 515px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+}
+.fifth-container .description-wraper {
+    max-width: 450px;
+    margin: 7px auto;
+}
+
+.watch-more-wrapper a {
+    text-decoration: none;
+    font-size: 0.85em;
+    color: #fff;
+}
+
+.watch-more-wrapper a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f144";
+    padding-left: 15px;
+}
+.tvshow-logo-wraper {
+    padding: 340px 0 0px;
+}
+
+.fifth-container .right-side-wrapper {
+    background-image: url("../images/home/watch.jpg");
+    background-color: #fbfbfd;
+    padding-top: 35px;
+    margin: 0 0 10px 0;
+    background-size: auto;
+  min-height: 515px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    text-align: center;
+}
+
+/*sixth section*/
+
+.sixth-container .left-side-wrapper {
+    background-image: url("../images/home/spyder.jpg");
+    background-color: #000;
+    padding-top: 35px;
+    margin: 0 0 10px 0;
+    background-size: cover;
+    min-height: 515px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    text-align: center;
+}
+.left-side-wrapper {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.right-side-wrapper {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.sixth-container .links-wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.links-wrapper ul {
+    list-style: none;
+}
+.product-title {
+    font-weight: 700;
+    font-size: 56px;
+}
+.brief-description {
+    font-size: 2em;
+}
+.sixth-container .description-wraper {
+    max-width: 250px;
+    margin: 7px auto;
+}
+
+.sixth-container .right-side-wrapper {
+    background-image: url("../images/home/apple-card-monthly.jpg");
+    background-color: #fbfbfd;
+    padding-top: 35px;
+    margin: 0 0 10px 0;
+    background-size: auto;
+    min-height: 515px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    text-align: center;
+}
+.title-wraper {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.15em;
+    letter-spacing: -0.04em;
+}
+.right-side-wrapper .title-wraper {
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+/* Footer Styling */
+.footer-wrapper {
+    background-color: #f5f5f7;
+    color: #86868b;
+    font-size: 0.7em;
+}
+.footer-wrapper ul {
+    list-style: none;
+
+    padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+    color: #515154;
+}
+.my-apple-wrapper {
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+.copyright {
+    margin-top: 5px;
+}
+.footer-country {
+    margin-top: 8px;
+}
+.flag-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+.footer-country-name {
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer-links-terms ul {
+    display: flex;
+}
+.footer-links-terms ul li {
+    border-right: 1px solid #d2d2d7;
+    margin-inline-start: 15px;
+}
+
+.footer-links-terms a {
+    padding-right: 15px;
+}
+.footer-links-terms ul li:first-child {
+    padding-left: 0;
+}
+
+.footer-links-terms ul li:last-child {
+    border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+.footer-wrapper ul li {
+    padding: 4px 0;
+}
+.upper-text-container {
+    border-bottom: 1px solid #d2d2d7;
+    padding: 17px 0 10px;
+    margin-bottom: 20px;
+}
+.upper-text-container a {
+    color: #515154;
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+    .nav-n {
+       
+        padding-left: 0px;
+      
+    }
+    
+    .footer-links-wrapper ul {
+        display: none;
+    }
+    .footer-links-wrapper h3 {
+        padding: 10px 0;
+        border-bottom: 1px solid #ccc;
+    }
+    .footer-links-wrapper h3:after {
+        font-family: "FontAwesome";
+        content: "\f067";
+        padding-left: 10px;
+        position: absolute;
+        right: 25px;
+    }
+
+    .cart a {
+        display: none;
+        position: absolute;
+        clip: rect(1px, 1px, 1px, 1px);
+
+        clip-path: inset(0px 0px 99.9% 99.9%);
+        overflow: hidden;
+        height: 1px;
+        width: 1px;
+        padding: 0;
+        border: 0;
+        top: 50%;
+    }
+}
+@media (min-width: 768px) {
+    .cart2{
+        display: none;
+    }
+    .newsearch {
+        display: none;
+    }
+    /*Nav bar*/
+    .nav-item {
+        text-align: center !important;
+        padding: 0;
+        border-bottom: 0px;
+    }
+    /*Footer styling*/
+    .copyright-wrapper {
+        border-top: 1px solid #d2d2d7;
+    }
+    /*Sixth section*/
+    .sixth-container .left-side-wrapper .left-side-container {
+        margin: 5px 5px 10px 10px;
+    }
+    .sixth-container .right-side-wrapper .right-side-container {
+        margin: 5px 10px 10px 5px;
+    }
+    .sixth-container .links-wrapper {
+        max-width: 500px;
+    }
+    /*Fifth section*/
+    .fifth-container .left-side-wrapper .left-side-container {
+        margin: 5px 5px 5px 10px;
+    }
+    .fifth-container .right-side-wrapper .right-side-container {
+        margin: 5px 10px 5px 5px;
+    }
+    /*fourth section*/
+    .fourth-container .left-side-wrapper .left-side-container {
+        margin: 10px 5px 5px 10px;
+    }
+    .fourth-container .right-side-wrapper .right-side-container {
+        margin: 10px 10px 5px 5px;
+    }
+    .title-wraper.bold {
+        font-size: 56px;
+    }
+
+    /* Second section */
+    .second-container {
+        min-height: 692px;
+        background-image: url("../images/home/macbookair-new.jpg");
+    }
+    .new-alert {
+        color: #bf4801;
+        font-size: 18px;
+    }
+    /* First section */
+    .first-container {
+        background-image: url("../images/home/ipodPronew.jpg");
+        min-height: 692px;
+    }
+    .ipod-caption {
+        padding-top: 415px;
+    }
+    /*Alert section*/
+    .alert-text {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+    
+    .dropDownColor li a {
+        color: #f5f5f7;
+    }
+}
+
+@media (min-width: 992px) {
+    /*Footer styling*/
+    .copyright {
+        margin-top: 10px;
+    }
+    .footer-country {
+        margin-top: 10px;
+    }
+    .footer-links-terms {
+        margin-top: 5px;
+    }
+    .newsearch {
+        display: none;
+    }
+
+    .fourth-container .left-side-wrapper .left-side-container {
+        padding: 10px 5px 5px 10px;
+    }
+    .fourth-container .right-side-wrapper .right-side-container {
+        padding: 10px 10px 5px 5px;
+    }
+    .cart2{
+        display: none;
+    }
+  
+}
+
+/* Product page */
+.product-title {
+	font-size: 24px;
+	font-weight: 600;	
+  }
+  .product-brief {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.2em;	
+  }
+  .starting-price {
+	  font-size: 20px;
+	  font-weight: 600;
+  }
+  .product-holder {
+	  margin: 100px 0;
+  }
+  .product-details {
+	  padding: 50px 0;
+  }
+ .large{
+	font-size: 56px;
+  }
+  .inch{
+	  font-size: 17px;
+  }
+
+  .monthly-price{
+    font-size: 10px;
+  }
+
+  
+/* Video Area */
+.youtubeVideosWrapper {
+    background: #fff;
+    padding: 50px;
+  }
+  .singleVideoWrapper {
+    background: #f3f2f2;
+    box-shadow: 4px 0px 13px rgba(158, 158, 158, 0.12);
+    margin-bottom: 30px;
+    max-height: 393px;
+    overflow: hidden;
+  }
+  .videoInfoWrapper {
+    padding: 10px 20px;
+    text-align: left;
+  }
+  .videoDesc {
+    font-size: 0.6em;
+    color: #676767;
+  }
+  .videoTitle {
+    font-weight: 700;
+    line-height: 1.2em;
+  }
+  .videoTitle a {
+    color: #000;
+  }
+  .video-title-wrapper {
+    padding: 50px 0;
+  }
+  
+  
